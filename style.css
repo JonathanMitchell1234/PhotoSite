@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+    background-color: #eee;
+}
+
+P {
+    font-family: 'Gloria Hallelujah', cursive;  
+    font-weight: bold;
+    /* font-size: 30px; */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2vw;
+    text-align-last: center;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+    width: 47.5%;
+    margin: auto;
+    /* Margin auto centers the paragraph element horizontally inside of the body element */
+}
+
+img {
+    width: 22.5%;
+    margin: 1.25%;
+/* The float CSS property place an element on the left or right side of its container/parent, allowing text and inline elements to wrap around it. The element is removed from the normal document flow, also removes myster space. The mystery space is the actual spaces between img elements in an HTML file */
+float: left;
+}
+
+
+
